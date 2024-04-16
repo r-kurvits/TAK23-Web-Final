@@ -17,7 +17,7 @@
         $successMessage = $add_success ? 'Sissekanne on edukalt tabelisse lisatud!' : 'Sissekande lisamisel tekkis tõrge!';
         $alertClass = $add_success ? 'alert-success' : 'alert-danger';
     } elseif (isset($_REQUEST['delete_success'])) {
-        $delete_success = (sanitizeInput($_REQUEST['add_success']) === 'false') ? false : true;
+        $delete_success = (sanitizeInput($_REQUEST['delete_success']) === 'false') ? false : true;
         $successMessage = $delete_success ? 'Sissekanne on edukalt tabelist kustutatud!' : 'Sissekande kustutamisel tekkis tõrge!';
         $alertClass = $delete_success ? 'alert-success' : 'alert-danger';
     }

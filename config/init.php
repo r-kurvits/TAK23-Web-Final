@@ -44,5 +44,5 @@
         }
     }
 
-    $conn = new MySQLPDO("127.0.0.1", "web-final", "3+w5(2#03C24C", "simple");
+    $conn = new MySQLPDO("127.0.0.1", "username", "password", "simple");
 ?>

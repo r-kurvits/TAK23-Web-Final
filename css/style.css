@@ -1,0 +1,16 @@
+.table-header:hover {
+    text-decoration: underline !important;
+    color: #616161 !important;
+}
+
+.btn-warning {
+    color: #ffffff;
+}
+
+.filter-input span {
+    min-width: 100px;
+}
+
+.filter-input input {
+    border-radius: 0;
+}

@@ -36,7 +36,7 @@
     <div class="input-group flex-nowrap mb-3 filter-input">
         <span class="input-group-text">Ridu lehel</span>
             <div class="col-md-1 me-3">
-                <input type="number" name="num_of_rows" class="form-control" aria-label="added" aria-describedby="addon-wrapping" value="<?= $num_of_rows ?>">
+                <input type="number" name="num_of_rows" class="form-control" aria-label="added" aria-describedby="addon-wrapping" value="<?= $num_of_rows ?>" min="0">
             </div>
     </div>
     <button type="submit" class="btn btn-primary">Otsi</button>
